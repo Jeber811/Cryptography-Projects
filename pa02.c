@@ -3,13 +3,13 @@
 | checksum on an ASCII input file
 |
 | Author: Jake Weber
-| Language: C
+| Date: 3/31/24
 |
 | To Compile:
 | gcc -o pa02 pa02.c
 |
 | To Execute:
-| or c -> ./pa02 inputFile.txt 8
+| ./pa02 inputFile.txt 8
 | where inputFile.txt is an ASCII input file
 | and the number 8 could also be 16 or 32
 | which are the valid checksum sizes, all
@@ -17,10 +17,6 @@
 | and program termination
 |
 | Note: All input files are simple 8 bit ASCII input
-|
-| Class: CIS3360 - Security in Computing - Spring 2024
-| Instructor: McAlpin
-| Due Date: 3/31/24
 |
 +=============================================================================*/
 
@@ -99,12 +95,3 @@ int myPow(int base, int power) {
     res *= base;
   return res;
 }
-
-/*=============================================================================
-| I Jake Weber (ja396977) affirm that this program is
-| entirely my own work and that I have neither developed my code together with
-| any another person, nor copied any code from any other person, nor permitted
-| my code to be copied or otherwise used by any other person, nor have I
-| copied, modified, or otherwise used programs created by others. I acknowledge
-| that any violation of the above terms will be treated as academic dishonesty.
-+============================================================================*/
