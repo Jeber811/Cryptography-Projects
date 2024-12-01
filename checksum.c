@@ -6,10 +6,10 @@
 | Date: 3/31/24
 |
 | To Compile:
-| gcc -o pa02 pa02.c
+| gcc -o checksum checksum.c
 |
 | To Execute:
-| ./pa02 inputFile.txt 8
+| ./checksum inputFile.txt 8
 | where inputFile.txt is an ASCII input file
 | and the number 8 could also be 16 or 32
 | which are the valid checksum sizes, all
