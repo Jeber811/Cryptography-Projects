@@ -7,8 +7,8 @@
 | To Compile: gcc -o hillcipher hillcipher.c
 |
 | To Execute: c -> ./hillcipher hillcipherkX.txt hillcipherpX.txt
-| where kX.txt is the keytext file
-| and pX.txt is plaintext file
+| where hillcipherkX.txt is the keytext file
+| and hillcipherpX.txt is plaintext file
 | Note:
 | All input files are simple 8 bit ASCII input
 | All execute commands above have been tested on Eustis
