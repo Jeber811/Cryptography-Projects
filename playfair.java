@@ -1,12 +1,14 @@
 // Jake Weber
 // 9/14/24
-// Arup Guha
-// CIS 3362
-// HW 3 Question 4
+
+// Write a program that reads in information from standard input
+// about several Playfair key, plaintext message pairs and prints out the corresponding encrypted
+// ciphertext. Please use the padding character ‘x’, and if there’s ever a double x, use the padding
+// character q as the back up padding character. Output should be one message per line.
 
 import java.util.*;
 
-public class Playfair {
+public class playfair {
 	public static void main (String[] args) {
 		
 		Scanner myScan = new Scanner(System.in);
