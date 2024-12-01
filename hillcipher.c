@@ -6,7 +6,7 @@
 |
 | To Compile: gcc -o hillcipher hillcipher.c
 |
-| To Execute: c -> ./hillcipher kX.txt pX.txt
+| To Execute: c -> ./hillcipher hillcipherkX.txt hillcipherpX.txt
 | where kX.txt is the keytext file
 | and pX.txt is plaintext file
 | Note:
