@@ -4,9 +4,9 @@
 | Author: Jake Weber
 | Date: 02/25/2024
 |
-| To Compile: gcc -o pa01 pa01.c
+| To Compile: gcc -o hillcipher hillcipher.c
 |
-| To Execute: c -> ./pa01 kX.txt pX.txt
+| To Execute: c -> ./hillcipher kX.txt pX.txt
 | where kX.txt is the keytext file
 | and pX.txt is plaintext file
 | Note:
